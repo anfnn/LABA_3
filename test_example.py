@@ -1,11 +1,6 @@
 import pytest
 
-# Определяем функции для тестирования
-def multy(a, c):
-    return a * c
-
-def delen(a, c):
-    return a / c
+from main import multy, delen
 
 # Тесты
 def test_multy():
